@@ -51,12 +51,12 @@ Mobile:
 
 ### Reflection
 
-This is my first project using Tailwind CSS. I relied on the official Tailwind CSS Doc to try it out. It was fascinating to not have to come up with class names for each element. I was also able to use the tailwing config file to add customized class names with values I needed. I would love to use Tailwind CSS more on my next projects!
+This is my first project using Tailwind CSS. I relied on the official Tailwind CSS Doc to build it. It was fascinating to not have to come up with a class name for each element. I was also able to use the tailwing config file to add customized class names with values I needed. I would love to use Tailwind CSS more on my next projects!
 
 ### Useful resources
 
-- [Tailwind CSS Docs](https://tailwindcss.com/docs/utility-first) - Official Tailwind CSS Docs. I used my prior knowledge on CSS and this docs to figure out how to install, start, and use Tailwind CSS.
-- [Web Dev Simplified on Learning Tailwind CSS](https://www.youtube.com/watch?v=Ksn1tThNTjI) - This video by Web Dev Simplified encouraged me to try Tailwind CSS just using the CSS knowledge and Tailwind CSS Docs.
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/utility-first) - Official Tailwind CSS Docs.
+- [Web Dev Simplified on Learning Tailwind CSS](https://www.youtube.com/watch?v=Ksn1tThNTjI) - This video by Web Dev Simplified encouraged me to try Tailwind CSS just using my CSS knowledge and Tailwind CSS Docs.
 
 ## Author
 
