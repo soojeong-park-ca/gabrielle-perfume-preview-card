@@ -10,10 +10,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
 
     <title>Product preview card component | build with tailwindcss</title>
-    <style>
+    <!-- <style>
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -21,18 +27,51 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
-    </style>
+    </style> -->
   </head>
   <body>
-    Preview Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
-    interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-    CHANEL. $149.99 $169.99 Add to Cart
+    <div
+      class="mx-auto my-0 grid w-11/12 max-w-md auto-rows-auto overflow-hidden rounded-lg bg-white"
+    >
+      <div>
+        <img src="images/image-product-mobile.jpg" alt="Ggabrielle perfume" />
+      </div>
+      <div class="p-6 tablet:p-8">
+        <div>
+          <p class="mb-3 text-xs uppercase tracking-widest">Perfume</p>
+          <h1
+            class="mb-4 font-fraunces text-xl font-bold text-blue-dark tablet:pr-16"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="mb-6">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <div class="mb-5 flex items-center">
+          <p class="text-bold text-cyan-dark mr-4 font-fraunces text-xl">
+            $149.99
+          </p>
+          <p
+            class="font-montserrat text-sm font-normal text-blue-dark-grayish line-through"
+          >
+            $169.99
+          </p>
+        </div>
+        <button
+          class="bg-cyan-dark w-full rounded-lg py-3 font-medium text-white"
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
