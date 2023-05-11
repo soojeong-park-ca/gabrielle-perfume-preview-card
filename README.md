@@ -35,7 +35,7 @@ Mobile:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://spark-gabriell-perfume-preview-card.netlify.app/)
+[💻 Live Site URL](https://spark-gabriell-perfume-preview-card.netlify.app/)
 
 ## My process
 
