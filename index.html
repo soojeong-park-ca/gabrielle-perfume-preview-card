@@ -31,26 +31,41 @@
   </head>
   <body>
     <div
-      class="mx-auto my-0 grid w-11/12 max-w-md auto-rows-auto overflow-hidden rounded-lg bg-white"
+      class="mx-auto my-0 grid w-11/12 max-w-md auto-rows-auto overflow-hidden rounded-lg bg-white desktop:h-[27.125rem] desktop:w-[38rem] desktop:max-w-[38rem] desktop:grid-cols-2 desktop:grid-rows-1"
     >
-      <div>
-        <img src="images/image-product-mobile.jpg" alt="Ggabrielle perfume" />
-      </div>
-      <div class="p-6 tablet:p-8">
-        <div>
+      <picture class="desktop:col-span-1">
+        <source
+          type="image/jpeg"
+          media="(max-width: 63.9em)"
+          srcset="images/image-product-mobile.jpg"
+        />
+        <source
+          type="image/jpeg"
+          media="(min-width: 64em)"
+          srcset="images/image-product-desktop.jpg"
+        />
+        <img
+          class="w-full"
+          src="images/image-product-desktop.jpg"
+          alt="Gabrielle perfume"
+        />
+      </picture>
+
+      <div class="p-6 tablet:p-8 desktop:col-span-1 desktop:h-fit">
+        <div class="mb-6">
           <p class="mb-3 text-xs uppercase tracking-widest">Perfume</p>
           <h1
-            class="mb-4 font-fraunces text-xl font-bold text-blue-dark tablet:pr-16"
+            class="mb-4 font-fraunces text-xl font-bold text-blue-dark tablet:pr-16 desktop:pr-1"
           >
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p class="mb-6">
+          <p class="text-base">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </div>
-        <div class="mb-5 flex items-center">
-          <p class="text-bold text-cyan-dark mr-4 font-fraunces text-xl">
+        <div class="mb-5 flex items-center desktop:mb-7">
+          <p class="text-bold mr-4 font-fraunces text-xl text-cyan-dark">
             $149.99
           </p>
           <p
@@ -60,7 +75,7 @@
           </p>
         </div>
         <button
-          class="bg-cyan-dark w-full rounded-lg py-3 font-medium text-white"
+          class="w-full rounded-lg bg-cyan-dark py-3 font-medium text-white"
         >
           Add to Cart
         </button>
